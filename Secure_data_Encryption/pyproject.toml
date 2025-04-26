@@ -1,4 +1,5 @@
-[project]
+[tool.poetry]
+package-mode = false
 name = "secure-data-encryption"
 version = "0.1.0"
 description = "Add your description here"
@@ -8,4 +9,3 @@ dependencies = [
     "cryptography>=44.0.2",
     "streamlit>=1.44.1",
 ]
-
